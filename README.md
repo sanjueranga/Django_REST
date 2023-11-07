@@ -10,10 +10,10 @@ _Creating Virtual environment_
 python3 -m venv .venv
 ```
 
-_Activate the environment_
+>*Activate the environment*
 
 ` . .venv/bin/activate`
-
+ 
 ## Installing Django
 
 `pip install django`
@@ -21,5 +21,18 @@ _Activate the environment_
 >install django rest framework
 
 `pip3 install djangorestframework`
+
+### Create project
+
+`django-admin startproject RestApi`
+
+### Create app
+
+`python manage.py startapp user`
+
+
+### Configure CORS
+
+`pip install django-cors-headers`
 
 
